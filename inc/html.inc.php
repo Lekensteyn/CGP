@@ -32,16 +32,16 @@ EOT;
 
 	if ($CONFIG['graph_type'] == 'canvas') {
 		echo <<<EOT
-	<script type="text/javascript" src="{$html_weburl}js/sprintf.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/strftime.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdRpn.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdTime.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdGraph.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdGfxCanvas.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/binaryXHR.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/rrdFile.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdDataFile.js"></script>
-	<script type="text/javascript" src="{$html_weburl}js/RrdCmdLine.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/sprintf.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/strftime.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdRpn.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdTime.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdGraph.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdGfxCanvas.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/binaryXHR.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/rrdFile.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdDataFile.js"></script>
+	<script type="text/javascript" src="{$html_weburl}jsrrdgraph/js/RrdCmdLine.js"></script>
 
 EOT;
 	}
