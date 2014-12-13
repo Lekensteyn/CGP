@@ -26,6 +26,7 @@ if ($uhosts) {
 	host_summary('uncategorized', $uhosts);
 }
 
+/*
 echo <<<EOT
 <script>
 jQuery(document).ready(function() {
@@ -34,5 +35,6 @@ jQuery(document).ready(function() {
 </script>
 
 EOT;
+*/
 
 html_end();
